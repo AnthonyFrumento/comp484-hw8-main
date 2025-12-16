@@ -1,0 +1,112 @@
+/* Color Palette
+# - color 1 422040
+# - color 2 e57a44
+# - color 3 e3d985
+# - color 4 d6dbb2
+# - color 5 bcd8c1
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #422040;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #e57a44;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+footer {
+    background: #e3d985;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #d6dbb2;
+}
+
+
+/* Education
+------------------------------------*/
+.edu {
+    background: #bcd8c1;
+}
+
+
+/* Layout helpers 
+------------------------------------*/
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
