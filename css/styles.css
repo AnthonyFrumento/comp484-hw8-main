@@ -75,6 +75,10 @@ footer {
     display: inline-block;
 }
 
+.contact-info i {
+    margin-right: 5px;
+}
+
 
 /* Work Experience
 ------------------------------------*/
