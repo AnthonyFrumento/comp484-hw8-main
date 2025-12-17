@@ -90,7 +90,11 @@ footer {
 /* Education
 ------------------------------------*/
 .edu {
-    background: #bcd8c1;
+    background: linear-gradient(
+        rgba(66, 32, 64, 0.7),
+        rgba(66, 32, 64, 0.7)
+    ), url("../images/csun-bg.jpg") center/cover no-repeat;
+    color: #ffffff;
 }
 
 
