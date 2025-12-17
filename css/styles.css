@@ -19,6 +19,7 @@ body {
     background: #422040;
     margin: 0;
     font-family: "Roboto", sans-serif;
+    padding-top: 70px;
 }
 
 h1,
@@ -109,4 +110,30 @@ footer {
     width: 70%;
     float: left;
     min-height: 225px;
+}
+
+/* Site navigation css*/
+.site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #422040;
+    z-index: 1000;
+}
+
+.site-nav .content-wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
 }
